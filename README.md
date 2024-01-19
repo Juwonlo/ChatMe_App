@@ -1,2 +1,3 @@
 # Chat_App
-A Chat App with Firebase
+A Chat App using Firebase
+With Interractive user interface
