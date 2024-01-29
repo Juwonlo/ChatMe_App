@@ -39,6 +39,7 @@ class _MyHomePageState extends State<MyHomePage> {
           children: <Widget>[
           Text('About to start'),
             Text('Working things out'),
+            Text('will start building this soon'),
 
           ],
         ),
