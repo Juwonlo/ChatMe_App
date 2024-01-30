@@ -41,7 +41,8 @@ class _MyHomePageState extends State<MyHomePage> {
             Text('Working things out'),
             Text('will start building this soon'),
             Text("Just putting stuffs together"),
-            Text('Just some random texts here')
+            Text('Just some random texts here'),
+            Text('About to build some amazaing stuffs'),
 
           ],
         ),
