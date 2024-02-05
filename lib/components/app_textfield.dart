@@ -17,7 +17,10 @@ class AppTextField extends StatelessWidget {
       controller: controller,
       obscureText: obscureText,
       decoration: InputDecoration(
-
+        hintText: hintText,
+    enabledBorder: OutlineInputBorder(
+      borderSide: BorderSide(color: Colors.black38,width: 1),
+    )
       ),
     );
   }
