@@ -14,7 +14,7 @@ class _LoginPageScreenState extends State<LoginPageScreen> {
       body: SafeArea(
         child: Column(
           children: <Widget>[
-        
+        Icon(Icons.account_box_rounded),
 
           ],
         ),
