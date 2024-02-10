@@ -15,11 +15,6 @@ class _LoginPageScreenState extends State<LoginPageScreen> {
         child: Column(
           children: <Widget>[
         Icon(Icons.account_box_rounded),
-            Text('Jkkqakakk'),
-            Text('dhdddjh'),
-            Text('ddddddd'),
-            Text('dddddeyueiei'),
-            Text('wwwwuidoo'),
           ],
         ),
       ),
