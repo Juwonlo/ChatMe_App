@@ -15,6 +15,7 @@ class _LoginPageScreenState extends State<LoginPageScreen> {
         child: Column(
           children: <Widget>[
         Icon(Icons.account_box_rounded),
+            Text('Welcome back to my Login page'),
           ],
         ),
       ),
