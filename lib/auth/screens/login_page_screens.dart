@@ -1,3 +1,4 @@
+import 'package:chatme_app/components/app_textfield.dart';
 import 'package:flutter/material.dart';
 
 class LoginPageScreen extends StatefulWidget {
@@ -8,6 +9,7 @@ class LoginPageScreen extends StatefulWidget {
 }
 
 class _LoginPageScreenState extends State<LoginPageScreen> {
+  final emailController = TextEditingController();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -16,6 +18,9 @@ class _LoginPageScreenState extends State<LoginPageScreen> {
           children: <Widget>[
         Icon(Icons.account_box_rounded),
             Text('Welcome back to my Login page'),
+          AppTextField(
+              controller: emailController, hintText: 'Email', obscureText: false,
+          )
           ],
         ),
       ),
