@@ -10,6 +10,7 @@ class LoginPageScreen extends StatefulWidget {
 
 class _LoginPageScreenState extends State<LoginPageScreen> {
   final emailController = TextEditingController();
+  final passwordController = TextEditingController();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -20,7 +21,9 @@ class _LoginPageScreenState extends State<LoginPageScreen> {
             Text('Welcome back to my Login page'),
           AppTextField(
               controller: emailController, hintText: 'Email', obscureText: false,
-          )
+          ),
+            AppTextField(
+                controller: passwordController, hintText: 'Password', obscureText: true)
           ],
         ),
       ),
