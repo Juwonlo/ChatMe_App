@@ -23,7 +23,8 @@ class _LoginPageScreenState extends State<LoginPageScreen> {
               controller: emailController, hintText: 'Email', obscureText: false,
           ),
             AppTextField(
-                controller: passwordController, hintText: 'Password', obscureText: true)
+                controller: passwordController, hintText: 'Password', obscureText: true),
+            Text(''),
           ],
         ),
       ),
