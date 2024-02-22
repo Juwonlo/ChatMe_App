@@ -19,9 +19,12 @@ class AppTextField extends StatelessWidget {
       decoration: InputDecoration(
         hintText: hintText,
     enabledBorder: OutlineInputBorder(
-      borderSide: BorderSide(color: Colors.black38,width: 1),
-    )
-      ),
+      borderSide: BorderSide(color: Colors.grey.shade200,width: 1),
+    ),
+        focusedBorder: OutlineInputBorder(
+          borderSide: BorderSide(color: Colors.white,width: 1),
+        )
+    ),
     );
   }
 }
