@@ -23,7 +23,9 @@ class AppTextField extends StatelessWidget {
     ),
         focusedBorder: OutlineInputBorder(
           borderSide: BorderSide(color: Colors.white,width: 1),
-        )
+        ),
+        filled: true,
+        fillColor: Colors.grey[400],
     ),
     );
   }
