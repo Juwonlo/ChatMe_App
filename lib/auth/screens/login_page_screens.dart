@@ -19,7 +19,7 @@ class _LoginPageScreenState extends State<LoginPageScreen> {
           children: <Widget>[
         Icon(Icons.account_box_rounded),
             Text('Welcome back to my\n Login page'),
-
+       SizedBox(height: 25),
           AppTextField(
               controller: emailController, hintText: 'Email', obscureText: false,
           ),
