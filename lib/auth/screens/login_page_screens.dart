@@ -17,7 +17,7 @@ class _LoginPageScreenState extends State<LoginPageScreen> {
       body: SafeArea(
         child: Column(
           children: <Widget>[
-        Icon(Icons.account_box_rounded),
+        Icon(Icons.account_box_rounded,size: 20, color: Colors.grey,),
             Text('Welcome back to my\n Login page'),
        SizedBox(height: 25),
           AppTextField(
