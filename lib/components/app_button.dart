@@ -9,7 +9,8 @@ class AppButton extends StatelessWidget {
     return GestureDetector(
       child: Container(
       decoration: BoxDecoration(
-
+          borderRadius: BorderRadius.circular(7),
+         color: Colors.grey
       ),
       ),
     );
