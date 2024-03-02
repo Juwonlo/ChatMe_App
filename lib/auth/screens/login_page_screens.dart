@@ -26,6 +26,14 @@ class _LoginPageScreenState extends State<LoginPageScreen> {
             AppTextField(
                 controller: passwordController, hintText: 'Password', obscureText: true),
             Text(''),
+        GestureDetector(
+          child: Container(
+            decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(7),
+                color: Colors.grey
+            ),
+          ),
+        ),
           ],
         ),
       ),
