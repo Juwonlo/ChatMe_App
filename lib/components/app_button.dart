@@ -8,6 +8,8 @@ class AppButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return GestureDetector(
       child: Container(
+        width: 34,
+      height: 33,
       decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(7),
          color: Colors.grey
