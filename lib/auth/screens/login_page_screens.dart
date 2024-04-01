@@ -1,3 +1,4 @@
+import 'package:chatme_app/components/app_button.dart';
 import 'package:chatme_app/components/app_textfield.dart';
 import 'package:flutter/material.dart';
 
@@ -17,23 +18,23 @@ class _LoginPageScreenState extends State<LoginPageScreen> {
       body: SafeArea(
         child: Column(
           children: <Widget>[
-        Icon(Icons.account_box_rounded,size: 70, color: Colors.grey,),
-            Text('Welcome back to my\n Login page'),
-       SizedBox(height: 25),
-          AppTextField(
-              controller: emailController, hintText: 'Email', obscureText: false,
-          ),
-            AppTextField(
-                controller: passwordController, hintText: 'Password', obscureText: true),
-            Text(''),
-        GestureDetector(
-          child: Container(
-            decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(7),
-                color: Colors.grey
+            Icon(
+              Icons.account_box_rounded,
+              size: 70,
+              color: Colors.grey,
             ),
-          ),
-        ),
+            Text('Welcome back to my\n Login page'),
+            SizedBox(height: 25),
+            AppTextField(
+              controller: emailController,
+              hintText: 'Email',
+              obscureText: false,
+            ),
+            AppTextField(
+                controller: passwordController,
+                hintText: 'Password',
+                obscureText: true),
+            AppButton(onTap: () {}, text: 'Sign In'),
           ],
         ),
       ),
